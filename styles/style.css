@@ -22,18 +22,25 @@ nav{
   background-image: url(../assets/Hero-bg.png);
   width: 100%;
   height: 652px;
+  padding: 26px 221px;
 }
 .Aspiration-content{
-  text-align: center;
+  width: 900px;
+  height: 500px;
+  margin: 26px 221px 45px 221px;
 }
 .Aspiration-image{
-  padding-top: 26px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .Aspiration-description{
-  padding-top: 50px;
+  text-align: center;
+}
+.Aspiration-description h1{
+  padding-bottom: 30px;
 }
 .Aspiration-description p{
-  margin: 30px 100px 60px 100px;
+  padding-bottom: 30px;
 }
 .Aspiration-description a button{
   width: 244px;
@@ -44,3 +51,109 @@ nav{
   font-weight: 600;
   border-radius: 10px;
 }
+/*development style*/
+.development{
+  height: auto;
+  border-radius: 15px;
+  margin: 130px 150px;
+  border: solid;
+  border-width: 1px;
+  padding: 80px 130px;
+}
+.development-title{
+  width: 80%;
+  height: 112px;
+  margin: 0px 0px 50px 150px;
+}
+.development-title h1{
+  text-align: center;
+  color: #0D1321;
+  font-size: 32px;
+  font-weight: 800;
+}
+.development-title p{
+  text-align: center;
+  color: #0D1321;
+  font-size: 16px;
+  font-weight: 200;
+}
+.development-box-1{
+display: flex;
+gap: 40px; 
+margin-bottom: 20px;
+box-shadow: 3px 3px 3px 3px rgb(253, 251, 251);
+}
+.development-box-discription-1{
+  width: 477px;
+  margin: 60px 40px 40px 120px;
+  padding-left: 100px;
+}
+.development-box-discription-1 h1{
+  color: #494C53;
+  margin-bottom: 16px;
+}
+.development-box-discription-1 p{
+  color: #494C53;
+  margin-bottom: 32px;
+}
+
+.development-box-image-1{
+  width: 477px;
+  margin: 30px 30px;
+}
+.development-box-2{
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+  box-shadow: 3px 0px 0px 3px rgb(253, 251, 251);
+}
+.development-box-image-2{
+  width: 400px;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+.development-box-discription-2{
+  width: 477px;
+  padding-top: 15px;
+}
+.development-box-discription-2 h1{
+  color: #494C53;
+  margin-bottom: 16px;
+}
+.development-box-discription-2 p{
+  color: #494C53;
+  margin-bottom: 32px;
+}
+.development-box-3{
+  display: flex;
+  gap: 40px;
+  box-shadow: 3px 0px 3px 3px rgb(253, 251, 251);
+}
+.development-box-discription-3{
+  width: 477px;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+.development-box-image-3{
+  width: 477px;
+  padding-left: 20px;
+}
+.development-box-discription-3 h1{
+  color: #494C53;
+  margin-bottom: 16px;
+}
+.development-box-discription-3 p{
+  color: #494C53;
+  margin-bottom: 32px;
+}
+/*shared style*/
+.btn-primary{
+  padding: 12px 20px;
+  color: #494C53;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+}
+
+
+
