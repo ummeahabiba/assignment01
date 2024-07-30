@@ -51,13 +51,18 @@ nav{
   font-weight: 600;
   border-radius: 10px;
 }
-/*development style*/
+/*shared style*/
+.btn-primary{
+  padding: 12px 20px;
+  color: #494C53;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #FFFFFF;
+}
+/*development style/ frist section*/
 .development{
   height: auto;
-  border-radius: 15px;
   margin: 130px 150px;
-  border: solid;
-  border-width: 1px;
   padding: 80px 130px;
 }
 .development-title{
@@ -95,6 +100,7 @@ box-shadow: 3px 3px 3px 3px rgb(253, 251, 251);
 .development-box-discription-1 p{
   color: #494C53;
   margin-bottom: 32px;
+  padding-right: 12px;
 }
 
 .development-box-image-1{
@@ -155,5 +161,15 @@ box-shadow: 3px 3px 3px 3px rgb(253, 251, 251);
   background-color: #FFFFFF;
 }
 
-
-
+/*secend section*/
+.Inspiration{
+  margin: 0px 152px 0px 300px;
+}
+.Inspiration-title h1, p{
+  text-align: center;
+  margin: 0px 144px 48px 144px;
+  width: 852px;
+}
+.youtube{
+  margin: 0px 130px 20px 100px;
+}
