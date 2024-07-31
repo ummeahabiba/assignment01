@@ -169,3 +169,45 @@ color: #0D1321;
 .extra-problem{
   padding-left: 150px;
 }
+/*fifth section*/
+.support-section{
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  width: 1000px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-left: 430px;
+  height: 250px;
+}
+.support-section-description{
+  width: 900px;
+  text-align: center;
+  padding: 10px;
+}
+.support-section-description h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+}
+.support-section-description p{
+  font-size: 16px;
+  font-weight: 200;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 10px;
+}
+input{
+  padding: 15px;
+  width: 300px;
+  border-radius: 15px;
+  border-style: solid;
+}
+button{
+  width: 100px;
+  border-radius: 15px;
+  border-style: solid;
+  padding: 15px;
+  border-style: none;
+}
