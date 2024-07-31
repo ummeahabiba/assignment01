@@ -67,6 +67,7 @@ nav{
 .development-title{
   text-align: center;
   width: 80%;
+  padding: 10px 100px;
 }
 .development-title h1{
   color: #0D1321 ;
@@ -129,4 +130,42 @@ nav{
   font-size: 16px;
   font-weight: 200;
   color: #0D1321;
+}
+/*Forth section*/
+.Development-next{
+  margin: 50px 260px;
+}
+.development-title-next{
+  text-align: center;
+  padding: 20px 150px;
+}
+.use-flex-margin{
+  display: flex;
+  width: 1000px;
+  gap: 10px;
+  border: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  margin: 20px;
+  border-color: #a7b1ca;
+}
+.use-flex-margin-description{
+ width: 800px;
+}
+.use-flex-margin-description h1{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #0D1321;
+}
+.use-flex-margin-description p{
+font-size: 16px;
+font-weight: 200px;
+color: #0D1321;
+}
+.use-flex-margin-image{
+  width: 200px;
+  padding: 30px 30px;
+}
+.extra-problem{
+  padding-left: 150px;
 }
