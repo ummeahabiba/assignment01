@@ -176,9 +176,9 @@ color: #0D1321;
   width: 1000px;
   border-style: solid;
   border-radius: 20px;
-  border-width: 1px;
   margin-left: 430px;
   height: 250px;
+  border-style: none;
 }
 .support-section-description{
   width: 900px;
@@ -210,4 +210,14 @@ button{
   border-style: solid;
   padding: 15px;
   border-style: none;
+}
+/*footer section*/
+.footer-section{
+  display: flex;
+align-items: center;
+gap: 350px;
+margin: 0px 150px 0px 420px;
+}
+nav img{
+  padding-right: 20px;
 }
